@@ -1,0 +1,423 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.container{
+    /* border:1px solid red; */
+    background-color: black;
+
+}
+
+header{
+/* border:  1px solid rgb(24, 235, 70); */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 0px 40px;
+height: 90px;
+position: fixed;
+z-index: 500;
+top: 0px;
+left: 0px;
+right: 0px;
+background-color: black;
+
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.navbar ul li{
+    
+    padding: 5px;
+}
+.navbar ul a{
+    color: white;
+    /* text-decoration: none; */
+}
+.restuarant-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.res-name{
+    /* border: 1px solid rgb(254, 94, 8); */
+
+}
+
+.social-icons{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+.social-icons img{
+    width: 55px;
+    height: 55px;
+}
+
+.social-icons .insta{
+    width: 68px;
+    height: 68px;
+    margin-top: 7px;
+}
+.big-pizza{
+    /* border: 3px solid red; */
+    margin-top: 80px;
+    position: relative;
+    color: white;
+
+}
+
+ .big-pizza img{
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    
+  }
+main{
+
+    /* border:  3px solid yellow; */
+    width:80%;
+    margin: auto;
+
+}
+.content-on-pizza{
+    display: flex;
+   
+    flex-flow: column wrap;
+    /* border: 1px solid white; */
+    align-items: center;
+    width: 40%;
+    height: 80%;
+    color: black;
+    position: absolute;
+  
+    top: 20%;
+    left: 10%;
+
+}
+.content-on-pizza h1{
+    padding: 0px 40px;
+    margin: 0px;
+    color: white;
+}
+.content-on-pizza p{
+    color: white;
+}
+
+.small-content{
+    gap: 20px;
+    /* border:  1px solid rebeccapurple; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 60%;
+    width: 70%;
+}
+.strip{
+    width: 360px;
+    height:16px;
+    background-color: #F24C4C;
+}
+.about-us{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+
+.about-content{
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+}
+.about-content img{
+    width: 80%;
+}
+.about-content p{
+    width: 90%;
+}
+.menu{
+    margin-top: 30px;
+      /* border:  1px solid rgb(41, 18, 218); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px; 
+
+}
+.menu p{
+    margin-top: 20px;
+}
+.card-container{
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+
+}
+.card img{
+    width: 40%;
+}
+.card{
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+
+}
+.find-us{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.find-location{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    margin-top: 20px;
+
+}
+.with-strip{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.left-portion{
+
+    /* border: 1px solid white; */
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 5px;
+}
+.location{
+    /* border:  2px solid red; */
+    display: grid;
+    grid-template-columns:  1fr 5fr;
+    margin-top: 20px;
+}
+.location-logo{
+    /* border:  2px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 15px;
+
+
+}
+.phone-add{
+    /* border:  2px solid red; */
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+
+
+}
+.navbar li:hover{
+    outline: 1px solid grey;
+    border-radius: 10px ;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* border:  2px solid rgb(240, 248, 242); */
+
+}
+.man-logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 20%;
+    /* border:  2px solid rgb(30, 158, 237); */
+
+
+}
+.logo-phone-loca{
+    /* border: 2px solid green; */
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: start;
+gap: 20px;
+
+}
+.icons-{
+    display: flex;
+    flex-direction: column;
+ /* flex-wrap: wrap; */
+ gap: 20px;
+}
+.add-num{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.fa-bars{
+    display: none;
+}
+@media (max-width:1200px) {
+    
+    .fa-bars{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .content-on-pizza{
+        display: none;
+    }
+
+    .card-container{
+        /* border: 1px solid yellow; */
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-top: 20px;
+    
+    }
+
+    .find-us{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    img{
+        opacity: 0.9 !important;
+
+    }
+    .img-{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+@media (max-width:550px) {
+    .social-icons{
+        display: none;
+    }
+    .strip{
+        width: 100px;
+        height: 10px;
+    }
+    
+    .left-portion{
+        font-size: 50%;
+    }
+    .phone-add{
+        font-size: 50%;
+    }
+    .location-logo{
+        font-size: 50%;
+    }
+    .fa-map-marker{
+        font-size: 20px !important;
+    }
+    .fa-phone{
+        font-size: 20px !important;
+    }
+    .footer{
+        font-size: 50%;
+    }
+    
+    .img--{
+        width: 80%;
+        height: 80%;
+    }
+    .fa-bars{
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: end;
+        position: relative;
+       
+    }
+    .card-container{
+        font-size: 50%;
+    }
+    .menu{
+        font-size: 50%;
+    }
+    .about{
+        font-size: 65%;
+
+    }
+    .res-name{
+        font-size: 85%;
+    }
+    .find-us{
+        font-size: 50%;
+    }
+    .navbar ul{
+        position: absolute;
+        border:  1px solid rgb(176, 162, 162);
+        display: flex !important;
+        flex-direction: column;
+        top: 70px;
+        gap: 10px;
+        left: 55%;
+        visibility: hidden;
+    }
+    .fa-bars:hover+.navbar ul{
+        visibility: visible !important;
+    }
+    .navbar ul{
+        font-size: 50%;
+    }
+    
+}
+
+
+
+
+
+
+
